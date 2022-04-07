@@ -657,6 +657,16 @@
                 "type": "integer",
                 "example": 99,
                 "description": "Fuel constant average"
+              },
+              "distanceToEmpty": {
+                "type": "integer",
+                "example": 54,
+                "description": "Distance is in km."
+              },
+              "stateOfCharge": {
+                "type": "integer",
+                "example": 24,
+                "description": "Values in percentage. It shows the current charging status."
               }
             }
           },
